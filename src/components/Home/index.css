@@ -1,0 +1,81 @@
+.carousel {
+    width:100%;
+    max-height: 40rem;
+  }
+
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 15rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .imgcontainer {
+    position: relative;
+    width: 50%;
+    margin-top: 1rem;
+  }
+
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+
+  .text {
+    font-style: italic;
+    text-shadow: 3px 2px grey;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor:default;
+  }
+  
+  .imgcontainer:hover .image {
+    opacity: 0.7;
+  }
+  
+  .imgcontainer:hover .middle  {
+    opacity: 1;
+  }
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .cursor {
+    cursor: pointer;
+  }
+  

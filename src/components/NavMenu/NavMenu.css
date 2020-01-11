@@ -1,0 +1,63 @@
+.navbar {
+    text-size-adjust: 100%;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(35, 40, 44);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    list-style: none;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    top: 0px;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    z-index: 1030;
+    opacity: 0.9;
+    background: rgb(225, 225, 225);
+    
+
+  }
+
+  
+  .navbar  a {
+    line-height: 1.5;
+    list-style: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-weight: 700;
+    color: rgb(32, 32, 32) !important;
+  }
+
+
+
+  
+  /* Change background on mouse-over */
+   a.nav-link:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+    cursor:default;
+
+  }
+
+
+
+.nav-item > .active {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+
+
+
+
+
