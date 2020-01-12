@@ -20,7 +20,7 @@
     left: 0px;
     z-index: 1030;
     opacity: 0.9;
-    background: rgb(225, 225, 225);
+
     
 
   }
@@ -56,8 +56,14 @@
     border-bottom: 2px solid black;
 }
 
+h3.h3logo{
+    margin-top:5%;
+    font-size: calc(16px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));  
+  }
 
 
 
 
+
+  
 

@@ -57,15 +57,15 @@ class Home extends Component {
 
 
 
-                <Element id='our-services' name='our-services'>
-                    <div className='container'>
+                <Element  id='our-services' name='our-services'>
+                    <div  className='container'>
                         <div className='row'>
 
                             <div className="imgcontainer col-xl-3 col-lg-6  col-md-6 xol-sm-12">
                                 <img src={process.env.PUBLIC_URL + 'images/videosurveillance/pexels-photo-430208.jpeg'} alt="Avatar" className="image" />
                                 <h3 className="text">Відеоспостереження</h3>
                                 <div className=" middle">
-                                    <Button variant="primary">Детальніше</Button>
+                                    <Button className="btnservices">Детальніше</Button>
                                 </div>
                             </div>
 
@@ -73,7 +73,7 @@ class Home extends Component {
                                 <img src={process.env.PUBLIC_URL + 'images/skm/ckc1.jpg'} alt="Avatar" className="image" />
                                 <h3 className="text">Структурована кабельна мережа</h3>
                                 <div className="middle">
-                                    <Button variant="primary">Детальніше</Button>
+                                    <Button className="btnservices">Детальніше</Button>
                                 </div>
                             </div>
 
@@ -81,7 +81,7 @@ class Home extends Component {
                                 <img src={process.env.PUBLIC_URL + 'images/mom/ethernet-1100x733.jpg'} alt="Avatar" className="image" />
                                 <h3 className="text">Монтаж оптоволоконних мереж</h3>
                                 <div className="middle">
-                                    <Button variant="primary">Детальніше</Button>
+                                    <Button className="btnservices">Детальніше</Button>
                                 </div>
                             </div>
 
@@ -98,7 +98,7 @@ class Home extends Component {
                 </Element>
 
 
-                <Element id='about-us' name='about-us' style={{marginTop:"40rem"}}>
+                <Element id='about-us' name='about-us'>
                     <div style={{ marginTop: "3rem" }} className="container">
                         <div className="row">
 
@@ -112,7 +112,7 @@ class Home extends Component {
                                 borderColor: '#000000'
                             }} />
 
-                            <p>Перед компаніями ми поставили складну задачу, нам потрібно було якісне, надійне і добре спроектоване відеоспостереження в торгових залах. Серед багатьох пропозицій ми обрали компанію "ІСМ". Проект який ми затвердили був дійсно професійним і добре продуманим. В результаті роботи з цією компанією:
+                            <p className="about">Перед компаніями ми поставили складну задачу, нам потрібно було якісне, надійне і добре спроектоване відеоспостереження в торгових залах. Серед багатьох пропозицій ми обрали компанію "ІСМ". Проект який ми затвердили був дійсно професійним і добре продуманим. В результаті роботи з цією компанією:
                                збільшилась ефективність праці персоналу магазину і вирішились ще багато питань, які виникають у процесі роботи маркету. Тепер активно працюємо з компанією і в інших торгових залах України.
                                Робота по установці та налаштуванні відеоспостереження була виконана професійно, точно і в термін.
                                Рекомендую для співпраці.</p>
@@ -122,31 +122,35 @@ class Home extends Component {
                 </Element>
 
 
-                <Element id='our-partners' name='our-partners' style={{marginTop:"50rem"}}>
+                <Element style={{marginTop:"2rem"}} id='our-partners' name='our-partners'>
                     <h2 style={{ width: "100%", textAlign: "center" }} >ПАРТНЕРИ</h2>
 
-                  
+                  <div className="container">
                     <div className="row">
-                        <div className="column">
-                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/591041e80d40d.jpg'} style={{width:"100%",height:"8rem"}}  alt="Cinque Terre" />
+                        <div className="column col-md-2 col-lg-2 col-xs-2">
+                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/591041e80d40d.jpg'}   alt="Cinque Terre" />
                         </div>
-                        <div className="column">
-                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/1130949_company_logo_1.png'} style={{width:"100%",height:"8rem"}}  alt="Mountains and fjords" />
+                        <div className="column col-md-2 col-lg-2 col-xs-2">
+                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/1130949_company_logo_1.png'}   alt="Mountains and fjords" />
                         </div>
-                        <div className="column">
-                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/e8c9ea25a129268d2b306535d083ba3b.png'} style={{width:"100%",height:"8rem"}}  alt="Northern Lights" />
+                        <div className="column col-md-2 col-lg-2 col-xs-2">
+                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/e8c9ea25a129268d2b306535d083ba3b.png'}   alt="Northern Lights" />
                         </div>
-                        <div className="column">
-                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/secur_1_top.jpg'} style={{width:"100%",height:"8rem"}} alt="Nature and sunrise" />
+                        <div className="column col-md-2 col-lg-2 col-xs-2">
+                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/secur_1_top.jpg'}  alt="Nature and sunrise" />
                         </div>
-                        <div className="column">
-                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/share.jpg'} style={{width:"100%",height:"8rem"}}  alt="Snowy Mountains" />
+                        <div className="column col-md-2 col-lg-2 col-xs-2">
+                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/share.jpg'}   alt="Snowy Mountains" />
                         </div>
-                        <div className="column">
-                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/snymok.jpg'} style={{width:"100%",height:"8rem"}}  alt="Snowy Mountains" />
+                        <div className="column col-md-2 col-lg-2 col-xs-2">
+                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/snymok.jpg'}   alt="Snowy Mountains" />
                         </div>
                     </div>
+                </div>
                 </Element>
+
+
+
 
 
 
