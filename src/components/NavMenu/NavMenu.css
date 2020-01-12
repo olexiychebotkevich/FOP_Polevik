@@ -50,7 +50,7 @@
 
 
 
-.nav-item > .active {
+   .active {
     text-decoration: none;
     color: black;
     border-bottom: 2px solid black;

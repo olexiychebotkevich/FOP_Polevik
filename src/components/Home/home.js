@@ -23,9 +23,9 @@ class Home extends Component {
                             alt="First slide"
 
                         />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <Carousel.Caption className="carousel_caption">
+                            <h1>Партнер у світі технологій</h1>
+                            <p className="pcarusel">Надійно, якісно, доступно</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className="carousel">
@@ -35,9 +35,8 @@ class Home extends Component {
                             alt="Third slide"
                         />
 
-                        <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <Carousel.Caption className="carousel_caption">
+                            <h1>Орієнтир вашого успіху</h1>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className="carousel">
@@ -45,12 +44,9 @@ class Home extends Component {
                             className="d-block w-100"
                             src={process.env.PUBLIC_URL + 'images/carusel/photo-1517181875630-f72350452109.jpg'}
                             alt="Third slide"
-
                         />
-
-                        <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <Carousel.Caption className="carousel_caption">
+                            <h1>Професійне рішення завдань</h1>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -58,7 +54,7 @@ class Home extends Component {
 
 
                 <Element  id='our-services' name='our-services'>
-                    <div  className='container'>
+                    <div style={{paddingTop:"1rem",paddingBottom:"5rem"}}  className='container'>
                         <div className='row'>
 
                             <div className="imgcontainer col-xl-3 col-lg-6  col-md-6 xol-sm-12">
@@ -99,10 +95,12 @@ class Home extends Component {
 
 
                 <Element id='about-us' name='about-us'>
-                    <div style={{ marginTop: "3rem" }} className="container">
+               
+              
+                    <div  className="container">
                         <div className="row">
 
-                            <h2 style={{ width: "100%", textAlign: "center" }} >ПРО КОМПАНІЮ</h2>
+                        <h2 style={{ width: "100%", textAlign: "center" }} >ПРО КОМПАНІЮ</h2>
 
                             <hr style={{
                                 width: "100%",
@@ -112,17 +110,33 @@ class Home extends Component {
                                 borderColor: '#000000'
                             }} />
 
-                            <p className="about">Перед компаніями ми поставили складну задачу, нам потрібно було якісне, надійне і добре спроектоване відеоспостереження в торгових залах. Серед багатьох пропозицій ми обрали компанію "ІСМ". Проект який ми затвердили був дійсно професійним і добре продуманим. В результаті роботи з цією компанією:
-                               збільшилась ефективність праці персоналу магазину і вирішились ще багато питань, які виникають у процесі роботи маркету. Тепер активно працюємо з компанією і в інших торгових залах України.
-                               Робота по установці та налаштуванні відеоспостереження була виконана професійно, точно і в термін.
-                               Рекомендую для співпраці.</p>
+                            <p className="about">
+                               ФОП Полевік з початку своєї діяльності орієнтувався на комплексне вирішення
+                               проблем клієнтів щодо програмних та апаратних засобів комп’ютеризації,
+                               комп’ютерних мереж, засобів безпеки, відеоспостереження, а також якісного і
+                               доступного сервісу.
+                               Ми здійснюємо проектування, монтаж, налаштування та техобслуговування
+                               систем відеонагляду, оптоволоконних мереж, структурованих кабельних
+                               систем, реалізуємо рішення з використанням високотехнологічного обладнання
+                               від кращих компаній-виробників, враховуючи функціональність і економічну
+                               доцільність.
+                            </p>
+                            <p className="about">
+                                Досвід та професіоналізм наших співробітників дозволяє виконувати роботи
+                                різної складності у визначені замовником терміни.
+                                ФОП Полевік стежить за останніми тенденціями у світі технологій, це дозволяє
+                                нам йти на крок попереду конкурентів і використовувати у роботі якісну і
+                                різноманітну продукцію в сфері IT-технологій.
+                                Ми вважаємо, що основним здобутком нашої діяльності є довготривалі
+                                відносини та плідна співпраця з нашими партнерами:
+                            </p>
 
                         </div>
                     </div>
-                </Element>
+                
+                    </Element>
 
-
-                <Element style={{marginTop:"2rem"}} id='our-partners' name='our-partners'>
+                <Element style={{marginTop:"3rem",marginBottom:"3rem"}} id='our-partners' name='our-partners'>
                     <h2 style={{ width: "100%", textAlign: "center" }} >ПАРТНЕРИ</h2>
 
                   <div className="container">

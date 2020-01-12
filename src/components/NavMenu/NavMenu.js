@@ -31,7 +31,8 @@ class NavMenu extends Component {
                                     to="our-services"
                                     spy={true}
                                     smooth={true}
-                                    duration={1000}>
+                                    duration={1000}
+                                    offset={-350}>
                                     послуги
                                  </Link>
 
@@ -41,9 +42,22 @@ class NavMenu extends Component {
                                     to="about-us"
                                     spy={true}
                                     smooth={true}
-                                    duration={1000}>
+                                    duration={1000}
+                                    offset={-100}>
                                     про компанію
                                  </Link>
+
+                                 <Link
+                                    className="text-dark nav-link"
+                                    activeClass="active"
+                                    to="contacts"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={1000}>
+                                    контакти
+                                 </Link>
+
+                               
 
                             </Nav>
                
