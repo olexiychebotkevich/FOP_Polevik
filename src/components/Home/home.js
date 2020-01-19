@@ -2,19 +2,23 @@ import React, { Component } from 'react';
 import { Button, Carousel } from 'react-bootstrap';
 import "./index.css"
 import { Element } from 'react-scroll'
+import { Link } from 'react-router-dom';
+import NavMenu from './NavMenu'
+import {Image} from "react-bootstrap";
+
+
 
 class Home extends Component {
     state = {
-        loading: true
+        
     }
-
-
-
 
     render() {
 
         return (
             <div>
+                <NavMenu/>
+
                 <Carousel className="carousel" >
                     <Carousel.Item className="carousel" >
                         <img
@@ -24,8 +28,8 @@ class Home extends Component {
 
                         />
                         <Carousel.Caption className="carousel_caption">
-                            <h1>Партнер у світі технологій</h1>
-                            <p className="pcarusel">Надійно, якісно, доступно</p>
+                            <h1 className="h1carousel">Партнер у світі технологій</h1>
+                            <h2 className="h2carusel">Надійно, якісно, доступно!</h2>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className="carousel">
@@ -36,7 +40,7 @@ class Home extends Component {
                         />
 
                         <Carousel.Caption className="carousel_caption">
-                            <h1>Орієнтир вашого успіху</h1>
+                            <h1 className="h1carousel">Орієнтир вашого успіху</h1>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className="carousel">
@@ -46,7 +50,7 @@ class Home extends Component {
                             alt="Third slide"
                         />
                         <Carousel.Caption className="carousel_caption">
-                            <h1>Професійне рішення завдань</h1>
+                            <h1 className="h1carousel">Професійне рішення завдань</h1>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -58,34 +62,34 @@ class Home extends Component {
                         <div className='row'>
 
                             <div className="imgcontainer col-xl-3 col-lg-6  col-md-6 xol-sm-12">
-                                <img src={process.env.PUBLIC_URL + 'images/videosurveillance/pexels-photo-430208.jpeg'} alt="Avatar" className="image" />
+                                <Image src={process.env.PUBLIC_URL + 'images/videosurveillance/pexels-photo-430208.jpeg'} alt="Avatar" className="image" />
                                 <h3 className="text">Відеоспостереження</h3>
                                 <div className=" middle">
-                                    <Button className="btnservices">Детальніше</Button>
+                                <Link to="/videosurveillance" className="btn btn-primary btnservices">Детальніше</Link>
                                 </div>
                             </div>
 
                             <div className="imgcontainer col-xl-3 col-lg-6  col-md-6 xol-sm-12">
-                                <img src={process.env.PUBLIC_URL + 'images/skm/ckc1.jpg'} alt="Avatar" className="image" />
+                                <Image src={process.env.PUBLIC_URL + 'images/skm/ckc1.jpg'} alt="Avatar" className="image" />
                                 <h3 className="text">Структурована кабельна мережа</h3>
                                 <div className="middle">
-                                    <Button className="btnservices">Детальніше</Button>
+                                <Link to="/skm" className="btn btn-primary btnservices">Детальніше</Link>
                                 </div>
                             </div>
 
                             <div className="imgcontainer  col-xl-3 col-lg-6 col-md-6 xol-sm-12">
-                                <img src={process.env.PUBLIC_URL + 'images/mom/ethernet-1100x733.jpg'} alt="Avatar" className="image" />
+                                <Image src={process.env.PUBLIC_URL + 'images/mom/ethernet-1100x733.jpg'} alt="Avatar" className="image" />
                                 <h3 className="text">Монтаж оптоволоконних мереж</h3>
                                 <div className="middle">
-                                    <Button className="btnservices">Детальніше</Button>
+                                <Link to="/mom" className="btn btn-primary btnservices">Детальніше</Link>
                                 </div>
                             </div>
 
                             <div className="imgcontainer  col-xl-3 col-lg-6 col-md-6 xol-sm-12">
-                                <img src={process.env.PUBLIC_URL + 'images/designing/pexels-photo-716661.jpeg'} alt="Avatar" className="image" />
+                                <Image src={process.env.PUBLIC_URL + 'images/designing/pexels-photo-716661.jpeg'} alt="Avatar" className="image" />
                                 <h3 className="text">Проектування</h3>
                                 <div className="middle">
-                                    <Button variant="primary">Детальніше</Button>
+                                <Link to="/designing" className="btn btn-primary btnservices">Детальніше</Link>
                                 </div>
                             </div>
 
@@ -111,7 +115,7 @@ class Home extends Component {
                             }} />
 
                             <p className="about">
-                               ФОП Полевік з початку своєї діяльності орієнтувався на комплексне вирішення
+                               <span className="titletext">ФОП Полевік</span> з початку своєї діяльності орієнтувався на комплексне вирішення
                                проблем клієнтів щодо програмних та апаратних засобів комп’ютеризації,
                                комп’ютерних мереж, засобів безпеки, відеоспостереження, а також якісного і
                                доступного сервісу.
@@ -124,7 +128,7 @@ class Home extends Component {
                             <p className="about">
                                 Досвід та професіоналізм наших співробітників дозволяє виконувати роботи
                                 різної складності у визначені замовником терміни.
-                                ФОП Полевік стежить за останніми тенденціями у світі технологій, це дозволяє
+                                <span className="titletext">ФОП Полевік</span> стежить за останніми тенденціями у світі технологій, це дозволяє
                                 нам йти на крок попереду конкурентів і використовувати у роботі якісну і
                                 різноманітну продукцію в сфері IT-технологій.
                                 Ми вважаємо, що основним здобутком нашої діяльності є довготривалі
@@ -142,22 +146,22 @@ class Home extends Component {
                   <div className="container">
                     <div className="row">
                         <div className="column col-md-2 col-lg-2 col-xs-2">
-                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/591041e80d40d.jpg'}   alt="Cinque Terre" />
+                            <Image className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/591041e80d40d.jpg'}   alt="Cinque Terre" />
                         </div>
                         <div className="column col-md-2 col-lg-2 col-xs-2">
-                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/1130949_company_logo_1.png'}   alt="Mountains and fjords" />
+                            <Image className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/1130949_company_logo_1.png'}   alt="Mountains and fjords" />
                         </div>
                         <div className="column col-md-2 col-lg-2 col-xs-2">
-                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/e8c9ea25a129268d2b306535d083ba3b.png'}   alt="Northern Lights" />
+                            <Image className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/e8c9ea25a129268d2b306535d083ba3b.png'}   alt="Northern Lights" />
                         </div>
                         <div className="column col-md-2 col-lg-2 col-xs-2">
-                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/secur_1_top.jpg'}  alt="Nature and sunrise" />
+                            <Image className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/secur_1_top.jpg'}  alt="Nature and sunrise" />
                         </div>
                         <div className="column col-md-2 col-lg-2 col-xs-2">
-                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/share.jpg'}   alt="Snowy Mountains" />
+                            <Image className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/share.jpg'}   alt="Snowy Mountains" />
                         </div>
                         <div className="column col-md-2 col-lg-2 col-xs-2">
-                            <img className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/snymok.jpg'}   alt="Snowy Mountains" />
+                            <Image className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/snymok.jpg'}   alt="Snowy Mountains" />
                         </div>
                     </div>
                 </div>

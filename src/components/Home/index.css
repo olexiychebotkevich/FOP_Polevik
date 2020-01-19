@@ -85,7 +85,7 @@
   }
 
   p.about{
-    text-align: center;
+    text-align: left;
     margin-top:2%;
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   }
@@ -95,11 +95,26 @@
   }
 
   .carousel_caption{
-    top: 70%;
+    top: 65%;
     transform: translateY(-50%);
+  
   }
-  .pcarusel{
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+
+
+  .h2carusel{
+    font-size: calc(16px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    color:rgb(255, 191, 0);
+  }
+
+  .h1carousel{
+      color:rgb(255, 191, 0);
+      font-size:4rem;
+  }
+
+
+  span.titletext{
+    font-weight:bold;
+
   }
 
   @media screen and (max-width: 350px) {

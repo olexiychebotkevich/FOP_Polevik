@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import "./NavMenu.css"
-import { Link, animateScroll as scroll } from "react-scroll";
 import {Navbar,Nav} from "react-bootstrap";
 
 
@@ -24,41 +23,7 @@ class NavMenu extends Component {
                         <Navbar.Collapse id="basic-navbar-nav">
 
                             <Nav className="justify-content-end" style={{ width: "100%" }}>
-
-                                <Link
-                                    className="text-dark nav-link"
-                                    activeClass="active"
-                                    to="our-services"
-                                    spy={true}
-                                    smooth={true}
-                                    duration={1000}
-                                    offset={-350}>
-                                    послуги
-                                 </Link>
-
-                                <Link
-                                    className="text-dark nav-link"
-                                    activeClass="active"
-                                    to="about-us"
-                                    spy={true}
-                                    smooth={true}
-                                    duration={1000}
-                                    offset={-100}>
-                                    про компанію
-                                 </Link>
-
-                                 <Link
-                                    className="text-dark nav-link"
-                                    activeClass="active"
-                                    to="contacts"
-                                    spy={true}
-                                    smooth={true}
-                                    duration={1000}>
-                                    контакти
-                                 </Link>
-
-                               
-
+                            <Nav.Link href="/">Головна</Nav.Link>
                             </Nav>
                
                         </Navbar.Collapse>

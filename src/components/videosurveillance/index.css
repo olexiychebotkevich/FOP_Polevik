@@ -1,0 +1,90 @@
+ .videoheader{
+     text-size-adjust: 100%;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #23282c;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex!important;
+    padding-bottom: 3rem!important;
+    min-height: 30rem;
+    position: relative;
+    width: 100%;
+    padding-top: 8rem;
+    background: linear-gradient(90deg,rgba(18,18,18,.5),rgba(18,18,18,.9)),url("./photo-1461685265823-f8d5d0b08b9b.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ 
+    
+    } 
+
+
+
+    .videocenter{
+       text-size-adjust: 100%;
+       font-size: 0.875rem;
+       font-weight: 400;
+       line-height: 1.5;
+       color: #23282c;
+       text-align: left;
+       -webkit-font-smoothing: antialiased;
+       box-sizing: border-box;
+       display: flex!important;
+       padding-bottom: 3rem!important;
+       min-height: 30rem;
+       position: relative;
+       width: 100%;
+       padding-top: 8rem;
+       background: linear-gradient(90deg,rgba(18,18,18,.5),rgba(18,18,18,.9)),url("./pexels-photo-430208.jpeg") fixed;
+       background-repeat: repeat;
+       background-size: contain;
+    
+    
+       } 
+    
+    
+    
+    .text-center{
+    text-align: center !important;
+    color: rgb(255, 255, 255) !important;
+    box-sizing: border-box;
+    margin-top: 0px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 3.5rem;
+    width: 100%;
+    } 
+
+
+ 
+
+    p.videotext{
+        text-align: left;
+        margin-top:2%;
+        font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    }
+
+
+    .videolist > li{
+        font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    }
+
+
+    .h2video{
+        font-size: calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        text-align: center;
+        margin-top:5%
+      }
+      h3.h3title{
+        font-size: calc(30px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+      }
+
+
+
+
+   
+      /* background: linear-gradient(90deg, rgba(18, 18, 18, 0.5), rgba(18, 18, 18, 0.9)) 0% 0% / cover no-repeat, url("./photo-1461685265823-f8d5d0b08b9b.jpg") fixed;
+  */
