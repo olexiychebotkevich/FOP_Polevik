@@ -8,7 +8,7 @@ class Footer extends Component {
         return (
             <Element id='contacts' name='contacts'>
 
-                <footer  className="footer">
+                <footer  style={{}} className="footer">
                     <div className="d-flex ">
 
                         {/* <div>
@@ -17,8 +17,11 @@ class Footer extends Component {
                             </a>
                             <a className="navbar-brand" href="/"><h3>ФОП Полевік</h3></a>
                         </div> */}
+                        <div className="container">
+                        {/* по центру */}
 
-                        {/* <div>
+                        <div className="justify-content-center">  
+                            <h3>Контакти:</h3>
                             <ul className="nav_menu ml-auto navbar-nav">
 
                                 <li>Телефон: +38 097 27 88 722</li>
@@ -27,10 +30,11 @@ class Footer extends Component {
                                 <li>м.Рівне</li>
 
                             </ul>
-                        </div> */}
+                        </div>
+                        </div>
 
 
-                        <div className="col justify-content-center">
+                        {/* <div className="col justify-content-center">
                         <li> Телефон: +38 097 27 88 722</li>
                         </div>
                         <div className="col ">
@@ -41,7 +45,7 @@ class Footer extends Component {
                         </div>
                         <div className="col ">
                             <li style={{textAlign:"right"}}>м.Рівне</li>
-                        </div>
+                        </div> */}
                     </div>
 
                 </footer>

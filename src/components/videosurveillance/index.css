@@ -9,7 +9,7 @@
     box-sizing: border-box;
     display: flex!important;
     padding-bottom: 3rem!important;
-    min-height: 30rem;
+    min-height: 20rem;
     position: relative;
     width: 100%;
     padding-top: 8rem;
@@ -39,7 +39,7 @@
        width: 100%;
        padding-top: 8rem;
        background: linear-gradient(90deg,rgba(18,18,18,.5),rgba(18,18,18,.9)),url("./pexels-photo-430208.jpeg") fixed;
-       background-repeat: repeat;
+       background-repeat: no-repeat;
        background-size: contain;
     
     

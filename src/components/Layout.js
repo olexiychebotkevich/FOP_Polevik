@@ -6,7 +6,7 @@ export default props => (
       <div>
         {props.children}
       </div>
-      <Footer/>
+      <Footer />
     </div>
     
   );

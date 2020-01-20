@@ -30,7 +30,7 @@ class Videosurveillance extends Component {
                     <Container style={{ marginTop: "5%", marginBottom: "5%" }}>
                         <Row>
                             <Col xs={12} sm={12} md={6} lg={6} xl={6}>
-                                <Image style={{ width: "100%", float: "left" }} src={process.env.PUBLIC_URL + 'images/videosurveillance/pexels-photo-96612.jpeg'} />
+                                <Image style={{ width: "100%", float: "left",maxHeight:"20rem" }} src={process.env.PUBLIC_URL + 'images/videosurveillance/pexels-photo-3205735.jpeg'} />
                             </Col>
                             <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                                 <p className="videotext">
@@ -157,10 +157,10 @@ class Videosurveillance extends Component {
 
                 <Container>
                     <Row className="justify-content-md-center">
-                        <h2 className="h2video">Ми співпрацюємо з:</h2>
+                        <h2  className="h2video">Ми співпрацюємо з:</h2>
                     </Row>
 
-                    <Row className="justify-content-md-center">
+                    <Row style={{marginTop:"5%"}} className="justify-content-md-center">
 
                         <div className="column col-md-3 col-lg-3 col-xs-3">
                             <Image className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/dahaua/dahualogo.png'} alt="Cinque Terre" />
@@ -177,7 +177,7 @@ class Videosurveillance extends Component {
 
                         <h2 className="h2video">Гарантійне та післягарантійне обслуговування</h2>
 
-                        <p className="videotext">
+                        <p style={{marginBottom:"3rem"}} className="videotext">
                             ФОП Полевік несе повну відповідальність за виконані роботи. Ми
                             ставимо пріоритети на довготривалу співпрацю з нашими
                             партнерами. Прагнемо підтримувати працездатність обладнання та

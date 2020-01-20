@@ -13,7 +13,7 @@ class NavMenu extends Component {
 
                     <Navbar bg="light" expand="lg" fixed="top">
                         <Navbar.Brand href="/">
-                            <img style={{ height: "50px", width: "70px" }} src={process.env.PUBLIC_URL + '/logo.png'} />
+                            <img style={{ height: "70px", width: "90px" }} src={process.env.PUBLIC_URL + '/logo.png'} />
                         </Navbar.Brand>
                         <Navbar.Brand href="/">
                             <h3 >ФОП Полевік</h3>
