@@ -164,7 +164,7 @@ class Home extends Component {
                         }} />
 
 
-                        <div className="row align-items-center" style={{ height: "20rem" }}>
+                        <div className="row align-items-center" style={{ marginTop:"10%",marginBottom:"10%"}}>
                             <div className="column col-md-2 col-lg-2 col-xs-2">
                                 <Image className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/e8c9ea25a129268d2b306535d083ba3b.png'} alt="Northern Lights" />
                             </div>
@@ -193,6 +193,8 @@ class Home extends Component {
 
 
                         </div>
+
+                        <div className="row">
 
                         <h2 style={{ width: "100%", textAlign: "center", }} >Гарантійне та післягарантійне обслуговування</h2>
 
@@ -227,6 +229,8 @@ class Home extends Component {
                             обслуговування наші фахівці здійснюють повну діагностику
                             інженерних систем та обладнання і відновлюють їх працездатність.
                         </p>
+
+                        </div>
 
 
                     </div>

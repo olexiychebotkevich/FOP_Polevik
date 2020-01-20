@@ -138,10 +138,30 @@
   }
 
   .h1carousel{
-      color:rgb(255, 255, 255);
-      font-size:4rem;
+    color:rgb(255, 255, 255);
       opacity: 0.9;
+      font-size: 4rem;
       
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .h1carousel {
+      font-size: calc(40px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .h1carousel {
+      font-size: calc(30px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+
+
+  @media screen and (max-width: 500px) {
+    .h1carousel {
+      font-size: calc(25px + 6 * ((100vw - 320px) / 680));
+    }
   }
 
 
@@ -154,6 +174,14 @@
     .carousel {
      margin-top: 2rem;
     
+    }
+
+    .h1carousel {
+      font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+    }
+
+    .h2carusel{
+      font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     }
   }
   
