@@ -1,27 +1,27 @@
 import React, { Component } from 'react';
 import './index.css';
 import NavMenu from '../NavMenu/NavMenu'
-import {  Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 class skm extends Component {
-    state = {  }
-    render() { 
-        return ( 
+    state = {}
+    render() {
+        return (
             <div>
                 <NavMenu />
                 <div className="skmheader">
                     <div className="container text-center text-white my-auto">
-                        <h3 className="mb-1 display-4 h3title">Структурована кабельна сисстема</h3>
+                        <h3 className="mb-1 display-4 h3title">Структурована кабельна система</h3>
                     </div>
                 </div>
 
                 <Container>
                     <p className="skmtext">
-                    Структурована кабельна мережа (СКС) – це універсальна
-                    телекомунікаційна інфраструктура будівлі чи комплексу будівель, що
-                    забезпечує передачу сигналів всіх типів, інформаційні системи
-                    (голосові, відео), охоронні, пожежні та інші. Це сучасне,
-                    високошвидкісне, багатофункціональне мережеве рішення, що
-                    належить до капітальних комунікаційних утворень.
+                        Структурована кабельна мережа (СКС) – це універсальна
+                        телекомунікаційна інфраструктура будівлі чи комплексу будівель, що
+                        забезпечує передачу сигналів всіх типів, інформаційні системи
+                        (голосові, відео), охоронні, пожежні та інші. Це сучасне,
+                        високошвидкісне, багатофункціональне мережеве рішення, що
+                        належить до капітальних комунікаційних утворень.
                     </p>
 
 
@@ -61,9 +61,9 @@ class skm extends Component {
                 <Container>
                     <Row className="justify-content-md-center">
 
-                    
+
                         <p className="skmtext">
-                        Наші фахівці візьмуть на себе <span className="titletext">побудову волоконно-оптичних ліній
+                            Наші фахівці візьмуть на себе <span className="titletext">побудову волоконно-оптичних ліній
                         зв’язку (ВОЛЗ)</span> у рамках створення комплексних рішень СКС:
                         </p>
 
@@ -74,12 +74,12 @@ class skm extends Component {
                         </ul>
 
 
-                       <p className="skmtext">
-                       ФОП Полевік пропонує <span>повний комплекс послуг з монтажу
+                        <p className="skmtext">
+                            ФОП Полевік пропонує <span>повний комплекс послуг з монтажу
                        структурованих кабельних систем:</span>
-                       </p>
+                        </p>
 
-                       <ul className="skmlist">
+                        <ul className="skmlist">
                             <li>виїзд фахівця для попереднього проектного рішення (безкоштовно);</li>
                             <li>підбір оптимальних варіантів обладнання та складання комерційної пропозиції (безкоштовно);</li>
                             <li>виконання проекту (за потреби);</li>
@@ -98,10 +98,10 @@ class skm extends Component {
                 </Container>
 
 
-                
+
             </div>
         );
     }
 }
- 
+
 export default skm;

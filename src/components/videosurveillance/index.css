@@ -1,5 +1,5 @@
  .videoheader{
-     text-size-adjust: 100%;
+    text-size-adjust: 100%;
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 1.5;
@@ -9,42 +9,36 @@
     box-sizing: border-box;
     display: flex!important;
     padding-bottom: 3rem!important;
-    min-height: 20rem;
+    min-height: 30rem;
     position: relative;
     width: 100%;
     padding-top: 8rem;
-    background: linear-gradient(90deg,rgba(18,18,18,.5),rgba(18,18,18,.9)),url("./photo-1461685265823-f8d5d0b08b9b.jpg") fixed;
+    background: linear-gradient(90deg,rgba(71, 70, 70, 0.5),rgba(71, 70, 70, 0.5)),url("./photo-1461685265823-f8d5d0b08b9b.jpg") fixed;
     background-repeat: no-repeat;
     background-size: cover;
  
- 
-    
     } 
 
-
-
     .videocenter{
-       text-size-adjust: 100%;
-       font-size: 0.875rem;
-       font-weight: 400;
-       line-height: 1.5;
-       color: #23282c;
-       text-align: left;
-       -webkit-font-smoothing: antialiased;
-       box-sizing: border-box;
-       display: flex!important;
-       padding-bottom: 3rem!important;
-       min-height: 30rem;
-       position: relative;
-       width: 100%;
-       padding-top: 8rem;
-       background: linear-gradient(90deg,rgba(18,18,18,.5),rgba(18,18,18,.9)),url("./pexels-photo-430208.jpeg") fixed;
-       background-repeat: no-repeat;
-       background-size: contain;
-    
+        text-size-adjust: 100%;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #23282c;
+        text-align: left;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+        display: flex!important;
+        padding-bottom: 3rem!important;
+        min-height: 25rem;
+        position: relative;
+        width: 100%;
+        padding-top: 8rem;
+        background: linear-gradient(90deg,rgba(71, 70, 70, 0.5),rgba(71, 70, 70, 0.5)),url("./photo-1461685265823-f8d5d0b08b9b.jpg") fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
     
        } 
-    
     
     
     .text-center{
@@ -58,8 +52,6 @@
     width: 100%;
     } 
 
-
- 
 
     p.videotext{
         text-align: left;
@@ -79,12 +71,26 @@
         margin-top:5%
       }
       h3.h3title{
-        font-size: calc(30px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-size: calc(40px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-weight:bold;
       }
 
 
+      @media screen and (max-width: 450px) {
+        h3.h3title{
+            font-size: calc(30px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+            font-weight:bold;
+          }
+      }
 
 
+      @media screen and (max-width: 350px) {
+        h3.h3title{
+            font-size: calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+            font-weight:bold;
+          }
+      }
+      
    
       /* background: linear-gradient(90deg, rgba(18, 18, 18, 0.5), rgba(18, 18, 18, 0.9)) 0% 0% / cover no-repeat, url("./photo-1461685265823-f8d5d0b08b9b.jpg") fixed;
   */

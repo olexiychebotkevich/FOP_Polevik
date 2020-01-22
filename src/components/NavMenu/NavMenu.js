@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./NavMenu.css"
 import {Navbar,Nav} from "react-bootstrap";
+import { Link } from 'react-router-dom';
 
 
 class NavMenu extends Component {
@@ -12,7 +13,7 @@ class NavMenu extends Component {
 
                     <Navbar bg="light" expand="lg" fixed="top">
                         <Navbar.Brand href="/">
-                            <img style={{ height: "50px", width: "70px" }} src={process.env.PUBLIC_URL + '/logo2.PNG'} />
+                            <img style={{ height: "70px", width: "90px" }} src={process.env.PUBLIC_URL + '/logo.PNG'} />
                         </Navbar.Brand>
                         <Navbar.Brand href="/">
                             <h3 >ФОП Полевік</h3>
@@ -25,6 +26,8 @@ class NavMenu extends Component {
                             <Nav className="justify-content-end" style={{ width: "100%" }}>
                             <Nav.Link href="/">Головна</Nav.Link>
                             </Nav>
+                             
+           
                
                         </Navbar.Collapse>
                         

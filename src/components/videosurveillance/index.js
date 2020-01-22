@@ -30,7 +30,7 @@ class Videosurveillance extends Component {
                     <Container style={{ marginTop: "5%", marginBottom: "5%" }}>
                         <Row>
                             <Col xs={12} sm={12} md={6} lg={6} xl={6}>
-                                <Image style={{ width: "100%", float: "left",maxHeight:"20rem" }} src={process.env.PUBLIC_URL + 'images/videosurveillance/pexels-photo-3205735.jpeg'} />
+                                <Image style={{ width: "100%", float: "left", maxHeight: "20rem" }} src={process.env.PUBLIC_URL + 'images/videosurveillance/pexels-photo-3205735.jpeg'} />
                             </Col>
                             <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                                 <p className="videotext">
@@ -49,7 +49,7 @@ class Videosurveillance extends Component {
                 </Container>
 
 
-                <div className="videoheader">
+                <div className="videocenter">
                     <div className="container text-center text-white my-auto">
                         <h3 className="mb-1 display-4 h3title">Типи систем відеоспостереження</h3>
                     </div>
@@ -89,15 +89,11 @@ class Videosurveillance extends Component {
                 </Container>
 
 
-                <div className="videocenter">
-                    <div className="container text-center text-white my-auto">
-                        <h3 className="mb-1 display-4 h3title">Переваги відеоспостереження</h3>
-                    </div>
-                </div>
-
 
                 <Container>
                     <Row className="justify-content-md-center">
+
+                        <h2 className="h2video">Переваги відеоспостереження</h2>
                         <p className="videotext">
                             Розпізнавати рухи, збирати відомості
                             щодо подій, порівнювати отримані дані з архівом - ці та інші опції
@@ -157,10 +153,20 @@ class Videosurveillance extends Component {
 
                 <Container>
                     <Row className="justify-content-md-center">
-                        <h2  className="h2video">Ми співпрацюємо з:</h2>
+                        <h2 className="h2video">Ми співпрацюємо з:</h2>
+
+                        <hr style={{
+                            width: "100%",
+                            color: '#000000',
+                            backgroundColor: '#000000',
+                            height: .5,
+                            borderColor: '#000000',
+                            marginBottom: "2%"
+                        }} />
+
                     </Row>
 
-                    <Row style={{marginTop:"5%"}} className="justify-content-md-center">
+                    <Row style={{ marginTop: "5%" }} className="justify-content-md-center">
 
                         <div className="column col-md-3 col-lg-3 col-xs-3">
                             <Image className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/dahaua/dahualogo.png'} alt="Cinque Terre" />
@@ -177,7 +183,16 @@ class Videosurveillance extends Component {
 
                         <h2 className="h2video">Гарантійне та післягарантійне обслуговування</h2>
 
-                        <p style={{marginBottom:"3rem"}} className="videotext">
+                        <hr style={{
+                            width: "100%",
+                            color: '#000000',
+                            backgroundColor: '#000000',
+                            height: .5,
+                            borderColor: '#000000',
+                            marginBottom: "2%"
+                        }} />
+
+                        <p style={{ marginBottom: "3rem" }} className="videotext">
                             ФОП Полевік несе повну відповідальність за виконані роботи. Ми
                             ставимо пріоритети на довготривалу співпрацю з нашими
                             партнерами. Прагнемо підтримувати працездатність обладнання та

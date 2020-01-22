@@ -6,6 +6,7 @@ import Videosurveillance from './components/videosurveillance'
 import skm from './components/skm'
 import mom from './components/mom'
 import designing from './components/designing'
+import ScrollToTopRoute from './components/ScrollToTopRoute'
 
 
 function App() {
@@ -13,12 +14,12 @@ function App() {
     <Layout>
 
       <HashRouter>
+
         <Route exact path='/' component={Home} />
-        <Route exact path='/videosurveillance' component={Videosurveillance} />
-        <Route exact path='/skm' component={skm} />
-        <Route exact path='/mom' component={mom} />
-        <Route exact path='/designing' component={designing} />
-        
+        <ScrollToTopRoute exact path="/videosurveillance" component={Videosurveillance} />
+        <ScrollToTopRoute exact path="/skm" component={skm} />
+        <ScrollToTopRoute exact path="/mom" component={mom} />
+        <ScrollToTopRoute exact path="/designing" component={designing} />
       </HashRouter>
 
     </Layout>
