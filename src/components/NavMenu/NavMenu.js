@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./NavMenu.css"
 import {Navbar,Nav} from "react-bootstrap";
-import { Link } from 'react-router-dom';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 class NavMenu extends Component {
@@ -25,6 +25,15 @@ class NavMenu extends Component {
 
                             <Nav className="justify-content-end" style={{ width: "100%" }}>
                             <Nav.Link href="/">Головна</Nav.Link>
+                            <Link
+                                    className="text-dark nav-link"
+                                    activeClass="active"
+                                    to="contacts"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={1000}>
+                                    контакти
+                            </Link>
                             </Nav>
                              
            
