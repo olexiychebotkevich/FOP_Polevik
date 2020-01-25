@@ -13,7 +13,7 @@ class NavMenu extends Component {
 
                     <Navbar bg="light" expand="lg" fixed="top">
                         <Navbar.Brand href="/">
-                            <img style={{ height: "70px", width: "90px" }} src={process.env.PUBLIC_URL + '/logo.png'} />
+                            <img style={{ height: "60px", width: "100px" }} src={process.env.PUBLIC_URL + '/logo.png'} />
                         </Navbar.Brand>
                         <Navbar.Brand href="/">
                             <h3 >ФОП Полевік</h3>
@@ -33,7 +33,7 @@ class NavMenu extends Component {
                                     smooth={true}
                                     duration={1000}
                                     offset={-350}>
-                                    послуги
+                                    Послуги
                                  </Link>
 
                                 <Link
@@ -44,7 +44,7 @@ class NavMenu extends Component {
                                     smooth={true}
                                     duration={1000}
                                     offset={-100}>
-                                    про компанію
+                                    Про компанію
                                  </Link>
 
                                  <Link
@@ -54,7 +54,7 @@ class NavMenu extends Component {
                                     spy={true}
                                     smooth={true}
                                     duration={1000}>
-                                    контакти
+                                    Контакти
                                  </Link>
 
 

@@ -13,7 +13,7 @@ class NavMenu extends Component {
 
                     <Navbar bg="light" expand="lg" fixed="top">
                         <Navbar.Brand href="/">
-                            <img style={{ height: "70px", width: "90px" }} src={process.env.PUBLIC_URL + '/logo.PNG'} />
+                            <img style={{ height: "60px", width: "100px" }} src={process.env.PUBLIC_URL + '/logo.PNG'} />
                         </Navbar.Brand>
                         <Navbar.Brand href="/">
                             <h3 >ФОП Полевік</h3>
@@ -32,7 +32,7 @@ class NavMenu extends Component {
                                     spy={true}
                                     smooth={true}
                                     duration={1000}>
-                                    контакти
+                                    Контакти
                             </Link>
                             </Nav>
                              

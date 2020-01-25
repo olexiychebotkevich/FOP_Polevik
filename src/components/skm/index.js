@@ -16,7 +16,7 @@ class skm extends Component {
 
                 <Container>
                     <p className="skmtext">
-                        Структурована кабельна мережа (СКС) – це універсальна
+                    <span className="titletext">Структурована кабельна система (СКС)</span> – це універсальна
                         телекомунікаційна інфраструктура будівлі чи комплексу будівель, що
                         забезпечує передачу сигналів всіх типів, інформаційні системи
                         (голосові, відео), охоронні, пожежні та інші. Це сучасне,
@@ -52,7 +52,7 @@ class skm extends Component {
 
                 </Container>
 
-                <div className="skmheader">
+                <div className="skmcenter">
                     <div className="container text-center text-white my-auto">
                         <h3 className="mb-1 display-4 h3title">Монтаж структурованих кабельних систем</h3>
                     </div>
@@ -74,12 +74,14 @@ class skm extends Component {
                         </ul>
 
 
-                        <p className="skmtext">
-                            ФОП Полевік пропонує <span>повний комплекс послуг з монтажу
-                       структурованих кабельних систем:</span>
-                        </p>
 
-                        <ul className="skmlist">
+               
+                         <p className="skmtext">
+                         ФОП Полевік пропонує повний комплекс послуг <span  className="titletext skmtext">з монтажу
+                         структурованих кабельних систем :</span>
+                        </p> 
+
+                        <ul style={{marginBottom:"5%"}} className="skmlist">
                             <li>виїзд фахівця для попереднього проектного рішення (безкоштовно);</li>
                             <li>підбір оптимальних варіантів обладнання та складання комерційної пропозиції (безкоштовно);</li>
                             <li>виконання проекту (за потреби);</li>

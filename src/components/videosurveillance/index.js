@@ -153,7 +153,7 @@ class Videosurveillance extends Component {
 
                 <Container>
                     <Row className="justify-content-md-center">
-                        <h2 className="h2video">Ми співпрацюємо з:</h2>
+                        <h2 className="h2video">МИ СПІВПРАЦЮЄМО З:</h2>
 
                         <hr style={{
                             width: "100%",
@@ -181,7 +181,7 @@ class Videosurveillance extends Component {
                             <Image className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/UNIVIEW/univiewlogo.jpg'} alt="Nature and sunrise" />
                         </div>
 
-                        <h2 className="h2video">Гарантійне та післягарантійне обслуговування</h2>
+                        <h2 style={{ marginTop: "6%" }} className="h2video">ГАРАНТІЙНЕ ТА ПІСЛЯГАРАНТІЙНЕ ОБСЛУГОВУВАННЯ</h2>
 
                         <hr style={{
                             width: "100%",
@@ -193,7 +193,7 @@ class Videosurveillance extends Component {
                         }} />
 
                         <p style={{ marginBottom: "3rem" }} className="videotext">
-                            ФОП Полевік несе повну відповідальність за виконані роботи. Ми
+                        <span className="titletext">ФОП Полевік</span> несе повну відповідальність за виконані роботи. Ми
                             ставимо пріоритети на довготривалу співпрацю з нашими
                             партнерами. Прагнемо підтримувати працездатність обладнання та
                             інженерних систем як в гарантійний, так і після гарантійний термін.

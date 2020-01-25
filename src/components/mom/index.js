@@ -40,21 +40,21 @@ class mom extends Component {
 
                 </Container>
 
-                <div className="momheader">
+                <div className="momcenter">
                     <div className="container text-center text-white my-auto">
                         <h3 className="mb-1 display-4 h3title">Монтаж волоконно-оптичних мереж:</h3>
                     </div>
                 </div>
 
                 <Container>
-                    <Row className="justify-content-md-center">
+                    <Row className="justify-content-md-ceneter">
 
                     
                         <p className="momtext">
                         ФОП Полевік пропонує повний комплекс послуг з <span className="titletext">монтажу волоконно-оптичних мереж :</span>
                         </p>
 
-                        <ul className="momlist">
+                        <ul style={{marginBottom:"5%"}} className="momlist">
                             <li>проектування та погодження проекту з усіма інстанціями;</li>
                             <li>прокладання оптичного кабелю у кабельній каналізації;</li>
                             <li>підвіс кабелю ВОЛЗ;</li>

@@ -57,11 +57,13 @@
         text-align: left;
         margin-top:2%;
         font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-family: "cambria";
     }
 
 
     .videolist > li{
         font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-family: "cambria";
     }
 
 

@@ -115,6 +115,16 @@ class Home extends Component {
                                 borderColor: '#000000'
                             }} />
 
+
+
+{/*
+ 1)franklin gothic book
+ 2)lucida sans unicode
+ 3)isocpeur
+ 4)garamond
+ 5)cambria
+*/}
+
                             <p className="about">
                                 <span className="titletext">ФОП Полевік</span> з початку своєї діяльності орієнтувався на комплексне вирішення
                                  проблем клієнтів щодо програмних та апаратних засобів комп’ютеризації,
@@ -126,7 +136,7 @@ class Home extends Component {
                                  від кращих компаній-виробників, враховуючи функціональність і економічну
                                  доцільність.
                             </p>
-                            <p className="about">
+                            <p style={{fontFamily:"cambria"}} className="about">
                                 Досвід та професіоналізм наших співробітників дозволяє виконувати роботи
                                 різної складності у визначені замовником терміни.
                                 <span className="titletext"> ФОП Полевік</span> стежить за останніми тенденціями у світі технологій, це дозволяє
@@ -150,10 +160,10 @@ class Home extends Component {
 
 
 
-                    <div className="container" style={{ marginTop: "5%" }}>
+                    <div className="container" style={{ marginTop: "5%" ,marginBottom: "5%" }}>
 
 
-                        <h2 style={{ width: "100%", textAlign: "center" }} >Наші партнери</h2>
+                        <h2 style={{ width: "100%", textAlign: "center" }} >НАШІ ПАРТНЕРИ</h2>
 
                         <hr style={{
                             width: "100%",
@@ -161,11 +171,11 @@ class Home extends Component {
                             backgroundColor: '#000000',
                             height: .5,
                             borderColor: '#000000',
-                            marginTop: "3%"
+                            marginTop: "5%"
                         }} />
 
 
-                        <div className="row align-items-center" style={{ marginTop:"10%",marginBottom:"10%"}}>
+                        <div className="row align-items-center" style={{ marginTop:"50px",marginBottom:"50px"}}>
                             <div className="column col-md-2 col-lg-2 col-xs-2">
                                 <Image className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/e8c9ea25a129268d2b306535d083ba3b.png'} alt="Northern Lights" />
                             </div>
@@ -197,7 +207,7 @@ class Home extends Component {
 
                         <div className="row">
 
-                        <h2 style={{ width: "100%", textAlign: "center", }} >Гарантійне та післягарантійне обслуговування</h2>
+                        <h2 style={{ width: "100%", textAlign: "center",marginTop:"5%" }} >ГАРАНТІЙНЕ ТА ПІСЛЯГАРАНТІЙНЕ ОБСЛУГОВУВАННЯ</h2>
 
                         <hr style={{
                             width: "100%",
@@ -205,7 +215,7 @@ class Home extends Component {
                             backgroundColor: '#000000',
                             height: .5,
                             borderColor: '#000000',
-                            marginTop: "3%"
+                            marginTop: "5%"
                         }} />
 
 
@@ -217,11 +227,11 @@ class Home extends Component {
                         </p>
 
 
-                        <p className="about">
-                            Термін гарантійних зобов'язань, які несе <span className="titletext">ФОП Полевік при постачанні
-                            обладнання, складає від 12 до 36 місяців, на виконані роботи – від 6
+                            <p className="about">
+                                Термін гарантійних зобов'язань, які несе <span className="titletext">ФОП Полевік </span>  при постачанні
+                            обладнання,<span className="titletext"> складає від 12 до 36 місяців, на виконані роботи – від 6
                         до 12 місяців.</span>
-                        </p>
+                            </p>
 
                         <p className="about">
                             Після <span className="titletext">закінчення терміну гарантійного обслуговування </span> ФОП Полевік
