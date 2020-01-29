@@ -8,10 +8,27 @@ import { Image } from "react-bootstrap";
 
 
 
+
+const BlackLine = ({ color }) => (
+    <hr style={{
+        width: "100%",
+        color: '#000000',
+        backgroundColor: '#000000',
+        height: 1,
+        borderColor: '#000000',
+        marginTop:"3%"
+    }} />
+);
+
+
 class Home extends Component {
     state = {
 
-    }
+    } 
+
+
+
+    
 
 
     render() {
@@ -107,13 +124,7 @@ class Home extends Component {
 
                             <h2 style={{ width: "100%", textAlign: "center" }} >ПРО КОМПАНІЮ</h2>
 
-                            <hr style={{
-                                width: "100%",
-                                color: '#000000',
-                                backgroundColor: '#000000',
-                                height: .5,
-                                borderColor: '#000000'
-                            }} />
+                           <BlackLine/>
 
 
 
@@ -160,22 +171,19 @@ class Home extends Component {
 
 
 
-                    <div className="container" style={{ marginTop: "5%" ,marginBottom: "5%" }}>
+                    <div className="container">
 
 
-                        <h2 style={{ width: "100%", textAlign: "center" }} >НАШІ ПАРТНЕРИ</h2>
 
-                        <hr style={{
-                            width: "100%",
-                            color: '#000000',
-                            backgroundColor: '#000000',
-                            height: .5,
-                            borderColor: '#000000',
-                            marginTop: "5%"
-                        }} />
+                        <div className="row">
+                            <h2 style={{ width: "100%", textAlign: "center", marginTop: "5%" }} >НАШІ ПАРТНЕРИ</h2>
+
+                            <BlackLine/>
+                        </div>
 
 
-                        <div className="row align-items-center" style={{ marginTop:"50px",marginBottom:"50px"}}>
+
+                        <div className="row align-items-center" style={{ marginTop: "50px", marginBottom: "50px" }}>
                             <div className="column col-md-2 col-lg-2 col-xs-2">
                                 <Image className="demo cursor d-block w-100" src={process.env.PUBLIC_URL + 'images/partners/e8c9ea25a129268d2b306535d083ba3b.png'} alt="Northern Lights" />
                             </div>
@@ -205,25 +213,23 @@ class Home extends Component {
 
                         </div>
 
+
                         <div className="row">
 
-                        <h2 style={{ width: "100%", textAlign: "center",marginTop:"5%" }} >ГАРАНТІЙНЕ ТА ПІСЛЯГАРАНТІЙНЕ ОБСЛУГОВУВАННЯ</h2>
+                            <h2 style={{ width: "100%", textAlign: "center", marginTop: "5%" }} >ГАРАНТІЙНЕ ТА ПІСЛЯГАРАНТІЙНЕ ОБСЛУГОВУВАННЯ</h2>
 
-                        <hr style={{
-                            width: "100%",
-                            color: '#000000',
-                            backgroundColor: '#000000',
-                            height: .5,
-                            borderColor: '#000000',
-                            marginTop: "5%"
-                        }} />
+                            <BlackLine/>
+
+                        </div>
 
 
-                        <p className="about">
-                            <span className="titletext">ФОП Полевік</span> несе повну відповідальність за усі виконані роботи. Ми
+
+                        <div className="row">
+                            <p className="about">
+                                <span className="titletext">ФОП Полевік</span> несе повну відповідальність за усі виконані роботи. Ми
                         <span className="titletext"> гарантуємо підтримання працездатності обладнання та інженерних
                             систем</span> як в гарантійний, так і після гарантійний термін. Довготривала
-                            співпраця з нашими партнерами є пріоритетним завданням для нас.
+                                    співпраця з нашими партнерами є пріоритетним завданням для нас.
                         </p>
 
 
@@ -233,12 +239,12 @@ class Home extends Component {
                         до 12 місяців.</span>
                             </p>
 
-                        <p className="about">
-                            Після <span className="titletext">закінчення терміну гарантійного обслуговування </span> ФОП Полевік
-                            пропонує замовникам комплекс послуг з післягарантійного
-                            обслуговування на договірній основі. У рамках післягарантійного
-                            обслуговування наші фахівці здійснюють повну діагностику
-                            інженерних систем та обладнання і відновлюють їх працездатність.
+                            <p className="about">
+                                Після <span className="titletext">закінчення терміну гарантійного обслуговування </span> ФОП Полевік
+                                пропонує замовникам комплекс послуг з післягарантійного
+                                обслуговування на договірній основі. У рамках післягарантійного
+                                обслуговування наші фахівці здійснюють повну діагностику
+                                інженерних систем та обладнання і відновлюють їх працездатність.
                         </p>
 
                         </div>

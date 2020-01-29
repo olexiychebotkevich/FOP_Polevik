@@ -3,6 +3,10 @@ import './index.css';
 import NavMenu from '../NavMenu/NavMenu'
 import { Image, Container, Row, Col } from "react-bootstrap";
 
+
+
+
+
 class mom extends Component {
     state = {  }
     render() { 

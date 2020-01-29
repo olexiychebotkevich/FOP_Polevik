@@ -2,6 +2,19 @@ import React, { Component } from 'react';
 import './index.css';
 import NavMenu from '../NavMenu/NavMenu'
 import { Image, Container, Row, Col } from "react-bootstrap";
+
+
+
+const BlackLine = ({ color }) => (
+    <hr style={{
+        width: "100%",
+        color: '#000000',
+        backgroundColor: '#000000',
+        height: 1,
+        borderColor: '#000000',
+        marginTop:"3%"
+    }} />
+);
 class Videosurveillance extends Component {
     state = {}
     render() {
@@ -56,7 +69,7 @@ class Videosurveillance extends Component {
                 </div>
 
                 <Container>
-                    <Row className="justify-content-md-center">
+                    <Row className="justify-content-md-left">
 
                         <p className="videotext">
                             Усі системи відеоохорони можна
@@ -91,7 +104,7 @@ class Videosurveillance extends Component {
 
 
                 <Container>
-                    <Row className="justify-content-md-center">
+                    <Row className="justify-content-md-left">
 
                         <h2 className="h2video">Переваги відеоспостереження</h2>
                         <p className="videotext">
@@ -133,7 +146,7 @@ class Videosurveillance extends Component {
                 <Container>
 
 
-                    <Row className="justify-content-md-center">
+                    <Row className="justify-content-md-left">
                         <p className="videotext">
                             ФОП Полевік пропонує <span className="titletext">повний комплекс послуг з монтажу</span> систем відеоспостереження:
                         </p>
@@ -154,15 +167,7 @@ class Videosurveillance extends Component {
                 <Container>
                     <Row className="justify-content-md-center">
                         <h2 className="h2video">МИ СПІВПРАЦЮЄМО З:</h2>
-
-                        <hr style={{
-                            width: "100%",
-                            color: '#000000',
-                            backgroundColor: '#000000',
-                            height: .5,
-                            borderColor: '#000000',
-                            marginBottom: "2%"
-                        }} />
+                        <BlackLine/>
 
                     </Row>
 
@@ -182,15 +187,7 @@ class Videosurveillance extends Component {
                         </div>
 
                         <h2 style={{ marginTop: "6%" }} className="h2video">ГАРАНТІЙНЕ ТА ПІСЛЯГАРАНТІЙНЕ ОБСЛУГОВУВАННЯ</h2>
-
-                        <hr style={{
-                            width: "100%",
-                            color: '#000000',
-                            backgroundColor: '#000000',
-                            height: .5,
-                            borderColor: '#000000',
-                            marginBottom: "2%"
-                        }} />
+                        <BlackLine/>
 
                         <p style={{ marginBottom: "3rem" }} className="videotext">
                         <span className="titletext">ФОП Полевік</span> несе повну відповідальність за виконані роботи. Ми
