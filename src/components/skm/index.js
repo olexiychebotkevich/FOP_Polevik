@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './index.css';
 import NavMenu from '../NavMenu/NavMenu'
-import { Grid, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 class skm extends Component {
     state = {}
     render() {
