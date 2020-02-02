@@ -5,6 +5,7 @@ import { Element } from 'react-scroll'
 import { Link } from 'react-router-dom';
 import NavMenu from './NavMenu'
 import { Image } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -128,13 +129,7 @@ class Home extends Component {
 
 
 
-{/*
- 1)franklin gothic book
- 2)lucida sans unicode
- 3)isocpeur
- 4)garamond
- 5)cambria
-*/}
+
 
                             <p className="about">
                                 <span className="titletext">ФОП Полевік</span> з початку своєї діяльності орієнтувався на комплексне вирішення

@@ -165,8 +165,9 @@ class Videosurveillance extends Component {
                 </Container>
 
                 <Container>
+                <h2  className="h2video">МИ СПІВПРАЦЮЄМО З:</h2>
                     <Row className="justify-content-md-center">
-                        <h2 className="h2video">МИ СПІВПРАЦЮЄМО З:</h2>
+                        
                         <BlackLine/>
 
                     </Row>

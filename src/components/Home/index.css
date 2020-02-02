@@ -172,7 +172,7 @@
 
   @media screen and (max-width: 350px) {
     .carousel {
-     margin-top: 2rem;
+     margin-top: 3rem;
     
     }
 
@@ -181,7 +181,7 @@
     }
 
     .h2carusel{
-      font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+     display: none;
     }
   }
   

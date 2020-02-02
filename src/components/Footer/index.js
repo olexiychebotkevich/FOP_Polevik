@@ -16,17 +16,17 @@ class Footer extends Component {
 
                         <div style={{ marginTop: "2%", marginBottom: "2%" }} className="row listcontacts">
 
-                            <div className="col md-3">
+                            <div className="col-xl-3  col-lg-3 col-md-3  col-8">
                                 <li> Телефон: +38 097 27 88 722</li>
                             </div>
-                            <div className="col md-3 ">
+                            <div className="col-xl-3 col-lg-3 col-md-3  col-8">
                                 <li style={{}}>Email: polevik-@ukr.net</li>
                             </div>
-                            <div className="col md-3">
+                            <div className="col-xl-3 col-lg-3 col-md-3 col-8">
                                 <li >Facebook: <a href="https://m.facebook.com/PolevikFOP/">PolevikFOP</a></li>
                             </div>
-                            <div className="col md-3 ">
-                                <li style={{ textAlign: "center" }}>м.Рівне</li>
+                            <div className="col-xl-3 col-lg-3 col-md-3 col-8 ">
+                                <li>    м.Рівне</li>
                             </div>
 
                         </div>
