@@ -7,7 +7,8 @@ import skm from './components/skm'
 import mom from './components/mom'
 import designing from './components/designing'
 import ScrollToTopRoute from './components/ScrollToTopRoute'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'react-bootstrap/dist/react-bootstrap.js';
 
 
 function App() {

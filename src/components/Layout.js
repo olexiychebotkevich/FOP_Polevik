@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from "./Footer"
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'react-bootstrap/dist/react-bootstrap';
 
 export default props => (
     <div>

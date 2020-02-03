@@ -16,11 +16,8 @@
     height: 15rem;
     transition: .5s ease;
     backface-visibility: hidden;
-    filter: brightness(80%);
+    filter: brightness(80%);   /* затемнити фон */
 
-
-
-   
   }
 
 
@@ -125,7 +122,7 @@
   }
 
   .carousel_caption{
-    top: 65%;
+    top: 60%;
     transform: translateY(-50%);
   
   }
@@ -184,4 +181,17 @@
      display: none;
     }
   }
-  
+
+  @media screen and (max-width: 450px) {
+    .h2carusel{
+      display: none;
+     }
+
+     .carousel{
+       max-height: 50rem;
+     }
+    
+  }
+
+
+
